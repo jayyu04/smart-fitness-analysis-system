@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 輸入欄位：起始時間、結束時間、持續時間 --><!--
+    <EditText
+        android:id="@+id/etFatigueStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="起始時間 (yyyy-MM-dd HH:mm)" />
+
+    <EditText
+        android:id="@+id/etFatigueEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="結束時間 (yyyy-MM-dd HH:mm)" />
+
+    <EditText
+        android:id="@+id/etFatigueDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="持續時間 (秒)"
+        android:inputType="number" />
+-->
+    <!-- 按鈕：新增事件 -->
+    <!--
+    <Button
+        android:id="@+id/btnAddFatigueEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新增疲勞事件"
+        android:layout_marginTop="8dp" />
+-->
+    <!-- 按鈕：返回上一頁 -->
+    <Button
+        android:id="@+id/btnBackToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← 返回上一頁"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 標題 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="疲勞事件列表 (長按可刪除)"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <!-- 顯示所有事件 -->
+    <ListView
+        android:id="@+id/lvFatigueEvents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

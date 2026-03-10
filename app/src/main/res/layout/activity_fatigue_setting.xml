@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 原本的按鈕區域 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btnBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="藍牙連線" />
+
+        <Button
+            android:id="@+id/btnToggleFatigue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="開啟/關閉 力竭偵測" />
+
+        <Button
+            android:id="@+id/btnDeviceTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="裝置測試" />
+
+        <!-- 查看力竭事件 -->
+        <Button
+            android:id="@+id/btnViewFatigueEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查看力竭事件" />
+
+        <!-- 查看 RMS 即時圖表 -->
+        <Button
+            android:id="@+id/btnViewRmsChart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查看 RMS 即時圖表" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="返回首頁" />
+    </LinearLayout>
+
+    <!-- 校準倒數半透明提示（預設隱藏） -->
+    <TextView
+        android:id="@+id/tvCalibrateHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請盡全力用力"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_round_black50"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+</FrameLayout>

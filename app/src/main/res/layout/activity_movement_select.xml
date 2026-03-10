@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnCurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="二頭彎舉" />
+
+    <Button
+        android:id="@+id/btnRaise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="側平舉" />
+
+    <Button
+        android:id="@+id/btnPress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="肩推" />
+
+    <!-- 新增螢幕錄影開關 -->
+    <Button
+        android:id="@+id/btnRecordToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="開啟螢幕錄影" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回首頁" />
+
+</LinearLayout>

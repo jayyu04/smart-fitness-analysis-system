@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivPoseImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="動作示意圖"/>
+
+        <TextView
+            android:id="@+id/tvPoseIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btnStartTraining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="開始訓練"
+            android:layout_marginTop="24dp"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

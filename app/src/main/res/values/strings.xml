@@ -1,0 +1,15 @@
+<resources>
+    <!-- 既有字串 -->
+    <string name="app_name">collegeproject</string>
+
+    <!-- ★ 新增：性別選單字串陣列 -->
+    <string-array name="gender_array">
+        <item>男</item>
+        <item>女</item>
+        <item>其他</item>
+    </string-array>
+
+    <!-- Spinner 顯示的提示文字 -->
+    <string name="gender_prompt">選擇性別</string>
+</resources>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 📈 MPAndroidChart 折線圖 -->
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 🖥️ 終端機樣式 ScrollView + TextView -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#000000"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/txtConsole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00FF00"
+            android:textSize="14sp"
+            android:text="裝置訊息顯示中..." />
+    </ScrollView>
+
+    <!-- 🔙 返回上一頁 -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回上一頁"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

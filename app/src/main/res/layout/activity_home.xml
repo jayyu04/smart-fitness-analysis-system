@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 受試者管理 -->
+    <Button
+        android:id="@+id/btnParticipants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="受試者管理" />
+
+    <!-- 上傳到雲平台（NEW） -->
+    <Button
+        android:id="@+id/btnCloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上傳到雲平台"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/btnCloudPlatform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="雲端平台" />
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="設定"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/btnTraining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="訓練"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="歷史紀錄"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/btnFatigue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="疲勞警報"
+        android:layout_marginTop="4dp"/>
+
+
+</LinearLayout>
