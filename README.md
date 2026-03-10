@@ -30,10 +30,10 @@ The system uses MediaPipe Pose for exercise motion recognition and repetition co
 - Completed system integration and testing
 
 ## Project Resources
-- Project Slides: (docs/project-slides.pdf)
-- Project Poster: (docs/project-poster.pdf)
-- Technical Report: (docs/technical-report.pdf)
-- Demo Video: (https://www.youtube.com/watch?v=ea8bsDLSvK8)
+- [Project Slides](docs/project-slides.pdf)
+- [Project Poster](docs/project-poster.pdf)
+- [Technical Report](docs/technical-report.pdf)
+- [Demo Video](https://www.youtube.com/watch?v=ea8bsDLSvk8)
 
 ## System Architecture
 The system consists of two main pipelines:
